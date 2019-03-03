@@ -1,0 +1,78 @@
+#visit-banner{
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))),url(../images/exhibition1.jpg);
+     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../images/exhibition1.jpg);
+     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../images/exhibition1.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../images/exhibition1.jpg);
+	 background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+ .visit-list{
+     background-color: #ffffff;
+}
+ .visit-list ul li {
+     margin: 0px auto;
+     padding-bottom: 30px;
+}
+ .list-container{
+     max-width: 80vw;
+     margin:0px auto;
+}
+ .list-item{
+     margin: 0px auto;
+     text-align: center;
+     -webkit-transition: all 0.5s ease-in;
+     -o-transition: all 0.5s ease-in;
+     transition: all 0.5s ease-in;
+     padding: 0px 0px 40px 0px;
+     color: #000000;
+}
+.list-item i{
+	font-size: 1.5em;
+	padding: 20px;
+}
+ .list-item-icon{
+     font-size: 48px;
+     color: #2B98F0;
+}
+ .list-item-title{
+     text-transform: capitalize;
+     font-size: 2em;
+     font-weight: 700;
+     margin-top: 16px;
+     margin-bottom: 16px;
+     letter-spacing: 3.2px;
+	 color: #2B98F0;
+}
+ .list-item-text{
+     width: 85%;
+     font-size: 1.5em;
+     margin: 25px auto;
+     text-align: center;
+     line-height: 2;
+}
+ @media (min-width:1024px){
+     .list-container{
+         display: -webkit-box;
+         display: -ms-flexbox;
+         display: flex;
+         -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+         -webkit-box-pack:justify;
+         -ms-flex-pack:justify;
+         justify-content:space-between;
+    }
+     .list-item{
+         -webkit-box-flex:0;
+         -ms-flex:0 0 calc(50% - 2em);
+         flex:0 0 calc(50% - 2em);
+    }
+}
+ @media (min-width:1440px){
+     .list-item{
+         -webkit-box-flex:0;
+         -ms-flex:0 0 calc(33.3333% - 2em);
+         flex:0 0 calc(33.3333% - 2em);
+    }
+}

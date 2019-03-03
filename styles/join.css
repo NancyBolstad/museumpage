@@ -1,0 +1,36 @@
+#join-banner {
+     background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../images/event2.jpg);
+     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/event2.jpg);
+     background: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/event2.jpg);
+     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/event2.jpg);
+	 background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+ .aside-support {
+     background-image: url(../images/donation.jpg);
+	 background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+ .aside-volunteer {
+     background-image: url(../images/community1.jpg);
+	 background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+ .aside-internships {
+     background-image: url(../images/support.jpg);
+	 background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+ .main-content p:nth-of-type(2) {
+     display: none;
+}
+ @media (min-width:1024px) {
+     .main-content p:nth-of-type(2) {
+         display: block;
+    }
+}

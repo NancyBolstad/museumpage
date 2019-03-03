@@ -1,0 +1,173 @@
+#events-banner{
+     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))),url(../images/teens4.jpg);
+     background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../images/teens4.jpg);
+     background-image: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../images/teens4.jpg);
+     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url(../images/teens4.jpg);
+	 background-attachment: fixed;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+}
+ .search-form {
+     width: 80vw;
+     margin: 0 auto;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+     height: 120px;
+}
+ .btn-search {
+     -webkit-box-flex: 1;
+         -ms-flex: 1 0 calc(30%);
+             flex: 1 0 calc(30%);
+     -webkit-box-sizing: border-box;
+             box-sizing: border-box;
+     background: #0193d7;
+     font-weight: 700;
+     text-transform: capitalize;
+     color: #ffffff;
+     padding: 5px 12px;
+     border: none;
+     font-size: 18px;
+     text-decoration: none;
+     cursor: pointer;
+}
+ .btn-search:hover {
+     background: #005694;
+}
+ .search-input {
+     -webkit-box-flex: 2;
+         -ms-flex: 2 0 calc(70%);
+             flex: 2 0 calc(70%);
+     background: #f1f1f1;
+     padding: 5px 12px;
+     border: none;
+     font-size: 18px;
+     text-decoration: none;
+     line-height: normal;
+     max-height: 60px;
+     -moz-appearance:none;
+     -webkit-appearance:none;
+     appearance:none;
+}
+ .search-input:focus{
+     background: #ffffff;
+}
+ @media(min-width:400px){
+     .search-form{
+         height: 60px;
+    }
+}
+ @media (min-width: 1280px) {
+     .banner-box h1{
+         margin-bottom: 40px;
+    }
+     .search-form{
+         width: 45vw;
+    }
+}
+ .events-container:first-of-type{
+     background: #ffffff;
+}
+ .events h3 {
+     line-height: 1.2;
+     font-size: 2em;
+	 font-weight: 700;
+}
+ .events {
+     width: 100vw;
+     margin: 20px auto;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-orient: horizontal;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: row;
+             flex-direction: row;
+     -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+     -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+             justify-content: space-between;
+}
+ .events-item {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-flex: 1;
+         -ms-flex: 1 1 calc(100%);
+             flex: 1 1 calc(100%);
+     -webkit-box-orient: vertical;
+     -webkit-box-direction: normal;
+         -ms-flex-direction: column;
+             flex-direction: column;
+     -webkit-box-pack: justify;
+         -ms-flex-pack: justify;
+             justify-content: space-between;
+     margin: 40px 10px;
+     overflow: hidden;
+     background-color: #ffffff;
+     -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+             box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+ @media (min-width: 1024px) {
+	 .events{
+		 width:80vw;
+	 }
+	 .events-item {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 1 calc(31.333% - 1em);
+                flex: 1 1 calc(31.333% - 1em);
+		        margin: 40px 20px;
+    }
+}
+ .events-image {
+     display: block;
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+}
+ .events-image img {
+     display: block;
+     width: 100%;
+     height: auto;
+     max-height: 380px;
+     -webkit-transition: all 0.3s ease-in-out;
+     -o-transition: all 0.3s ease-in-out;
+     transition: all 0.3s ease-in-out;
+}
+ .events-image img:hover {
+     -webkit-transform: scale(1.1);
+         -ms-transform: scale(1.1);
+             transform: scale(1.1);
+}
+ .events-title {
+     margin-top: 15px;
+     padding: 20px;
+     font-size: 2em;
+     font-weight: 700;
+}
+ .events-description {
+	 color: #555555;
+     font-size: 1.5em;
+     line-height: 2;
+     padding: 20px;
+     margin-bottom: 15px !important;
+     -webkit-box-flex: 1;
+         -ms-flex: 1 1 auto;
+             flex: 1 1 auto;
+}
+ .events-item .read-more{
+     width: 100%;
+}
+ #green-intro{
+     border-bottom-color: #57BB3F;
+}
+#green-intro .read-more{
+     background: #57BB3F;
+}
+ #green-intro .read-more:hover{
+     background: #2e8440;
+}
