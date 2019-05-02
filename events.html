@@ -1,211 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Community Science Museum runs a variety of kid-friendly and free events. Come and learn science together.">
-    <meta name="author" content="Community Science Museum">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Community Science Museum runs a variety of kid-friendly and free events. Come and learn science together."
+    />
+    <meta name="author" content="Community Science Museum" />
     <title>Events &#8211; Community Science Museum</title>
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/events.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/events.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"
+      integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <header class="page-header">
-        <div class="nav-container">
-            <nav class="top-nav">
-                <a href="index.html" class="logo"> <img alt="logo" src="images/logo-blue.svg"></a>
-                <input class="menu-toggle" type="checkbox" id="menu-toggle"/>
-                <label class="menu-label" for="menu-toggle"><span class="toggle-icon"></span></label>
-                <ul class="menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="visit.html">Visit</a></li>
-                    <li><a href="events.html" class="current-page">Events</a></li>
-                    <li><a href="kids.html">Programs For Kids</a></li>
-                    <li><a href="education.html">Education</a></li>
-                    <li><a href="collections.html">Collections</a></li>
-                    <li><a href="get-involved.html">Get Involved</a></li>
-                </ul>
-            </nav>
+      <div class="nav-container">
+        <nav class="top-nav">
+          <a href="index.html" class="logo">
+            <img alt="logo" src="images/logo-blue.svg"
+          /></a>
+          <input class="menu-toggle" type="checkbox" id="menu-toggle" />
+          <label class="menu-label" for="menu-toggle"
+            ><span class="toggle-icon"></span
+          ></label>
+          <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="events.html" class="current-page">Events</a></li>
+            <li><a href="kids.html">Programs For Kids</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="page-banner" id="events-banner">
+        <div class="banner-box">
+          <h1 class="banner-title">Discover Our Events</h1>
         </div>
-        <div class="page-banner" id="events-banner">
-            <div class="banner-box">
-                <h1 class="banner-title">Discover Our Events</h1>
-            </div>
-            <form class="search-form"> 
-                <input id="search" type="search" name="search" aria-label="Search" placeholder="Enter a keyword" class="search-input">
-                <button type="submit" class="btn-search">Search Events</button>
-            </form>
-        </div>
+        <form class="search-form">
+          <div>
+            <input
+              id="search"
+              name="search"
+              type="search"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+              placeholder="Find a event"
+              aria-label="Search"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit" class="btn-search">Search</button>
+          </div>
+        </form>
+      </div>
     </header>
     <main>
-        <section class="events-container">
-            <div class="section-intro">
-                <div>
-                    <h2 class="section-title">What's On</h2></div>
-                <div>
-                    <a href="#" class="read-more">View More <i class="fas fa-arrow-right"></i></a></div>
+      <section class="events-container">
+        <div class="section-intro">
+          <div>
+            <h2 class="section-title">What's On</h2>
+          </div>
+          <div>
+            <a href="#" class="read-more"
+              >View More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="events">
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/event2.jpg" alt="events' picture 1" />
+            </a>
+            <h3 class="events-title">Lorem Events</h3>
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
             </div>
-            <div class="events">
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/event2.jpg" alt="events' picture 1" />
-                    </a>
-                    <h3 class="events-title">Lorem Events</h3>
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/ai.jpg" alt="events' picture 2" />
-                    </a>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/ai.jpg" alt="events' picture 2" />
+            </a>
 
-                    <h3 class="events-title">Lorem Events</h3>
+            <h3 class="events-title">Lorem Events</h3>
 
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/event1.jpg" alt="events' picture 3" />
-                    </a>
-
-                    <h3 class="events-title">Lorem Events</h3>
-
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/event2.jpg" alt="events' picture 4" />
-                    </a>
-
-                    <h3 class="events-title">Lorem Events</h3>
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/ai.jpg" alt="events' picture 5" />
-                    </a>
-
-                    <h3 class="events-title">Lorem Events</h3>
-
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/event1.jpg" alt="events' picture 6" />
-                    </a>
-
-                    <h3 class="events-title">Lorem Events</h3>
-
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
             </div>
-        </section>
-        <section class="events-container" id="upcoming">
-            <div class="section-intro" id="green-intro">
-                <div>
-                    <h2 class="section-title">What's Upcoming</h2></div>
-                <div>
-                    <a href="#" class="read-more">View More <i class="fas fa-arrow-right"></i></a></div>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/event1.jpg" alt="events' picture 3" />
+            </a>
+
+            <h3 class="events-title">Lorem Events</h3>
+
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
             </div>
-            <div class="events" id="mid-section">
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/event2.jpg" alt="events' picture 7" />
-                    </a>
+            <a href="#" class="read-more">Read More</a>
+          </article>
 
-                    <h3 class="events-title">Lorem Events</h3>
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/event2.jpg" alt="events' picture 4" />
+            </a>
 
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/ai.jpg" alt="events' picture 8" />
-                    </a>
-
-                    <h3 class="events-title">Lorem Events</h3>
-
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-
-                <article class="events-item">
-                    <a class="events-image ">
-                        <img src="images/event1.jpg" alt="events' picture 9" />
-                    </a>
-
-                    <h3 class="events-title">Lorem Events</h3>
-
-                    <div class="events-description">
-                        <p>Jed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. </p>
-                    </div>
-                    <a href="#" class="read-more">Read More</a>
-                </article>
-
+            <h3 class="events-title">Lorem Events</h3>
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
             </div>
-        </section>
-        <section class="section-subscribe">
-                <h2 class="subscribe-title">Join our newsletter</h2>
-                <form class="subscribe-form">
-                <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter your email here" aria-label="Email" required>
-                <button type="submit" class="btn-subscribe">Subscribe</button>
-            </form>
-        </section>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/ai.jpg" alt="events' picture 5" />
+            </a>
+
+            <h3 class="events-title">Lorem Events</h3>
+
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/event1.jpg" alt="events' picture 6" />
+            </a>
+
+            <h3 class="events-title">Lorem Events</h3>
+
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+        </div>
+      </section>
+      <section class="events-container" id="upcoming">
+        <div class="section-intro" id="green-intro">
+          <div>
+            <h2 class="section-title">What's Upcoming</h2>
+          </div>
+          <div>
+            <a href="#" class="read-more"
+              >View More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="events" id="mid-section">
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/event2.jpg" alt="events' picture 7" />
+            </a>
+
+            <h3 class="events-title">Lorem Events</h3>
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/ai.jpg" alt="events' picture 8" />
+            </a>
+
+            <h3 class="events-title">Lorem Events</h3>
+
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+
+          <article class="events-item">
+            <a class="events-image ">
+              <img src="images/event1.jpg" alt="events' picture 9" />
+            </a>
+
+            <h3 class="events-title">Lorem Events</h3>
+
+            <div class="events-description">
+              <p>
+                Jed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+                quae ab illo inventore veritatis et quasi architecto beatae
+                vitae dicta sunt explicabo.
+              </p>
+            </div>
+            <a href="#" class="read-more">Read More</a>
+          </article>
+        </div>
+      </section>
+      <section class="section-subscribe">
+        <h2 class="subscribe-title">
+          Do you want to stay updated about the latest event?
+        </h2>
+        <form class="subscribe-form">
+          <div>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+              placeholder="Enter your email here"
+              aria-label="Email"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit" class="btn-subscribe">Subscribe</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer class="footer-container">
-        <div class="social-media-bar">
-            <div class="social-media-icons">
-                <ul>
-                    <li>
-                        <a href="#" class="a-twitter"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="a-facebook"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="a-instagram"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" class="a-snapchat"><i class="fab fa-snapchat-ghost"></i></a>
-                    </li>
-                </ul>
-            </div>
+      <div class="social-media-bar">
+        <div class="social-media-icons">
+          <ul>
+            <li>
+              <a href="#" class="a-twitter"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" class="a-facebook"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#" class="a-instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="a-snapchat"
+                ><i class="fab fa-snapchat-ghost"></i
+              ></a>
+            </li>
+          </ul>
         </div>
-        <div class="copyright">
-            <p>&copy; 2018 - The Community Science Museum</p>
-        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2019 - The Community Science Museum 2.0</p>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
