@@ -1,177 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="description" content="Community Science Museum is a community where every can experience science with fun. We have special events and programs for kids, teachers and researcher.">
-      <meta name="author" content="Community Science Museum">
-      <title>Community Science Museum</title>
-      <link rel="stylesheet" href="styles/main.css">
-      <link rel="stylesheet" href="styles/index.css">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-   </head>
-   <body>
-      <header class="page-header">
-         <div class="nav-container">
-            <nav class="top-nav">
-               <a href="index.html" class="logo"><img alt="logo picture" src="images/logo-blue.svg"></a>
-               <input class="menu-toggle" type="checkbox" id="menu-toggle" />
-               <label class="menu-label" for="menu-toggle"><span class="toggle-icon"></span></label>
-               <ul class="menu">
-                  <li><a href="index.html" class="current-page">Home</a></li>
-                  <li><a href="visit.html">Visit</a></li>
-                  <li><a href="events.html">Events</a></li>
-                  <li><a href="kids.html">Programs For Kids</a></li>
-                  <li><a href="education.html">Education</a></li>
-                  <li><a href="collections.html">Collections</a></li>
-                  <li><a href="get-involved.html">Get Involved</a></li>
-               </ul>
-            </nav>
-         </div>
-         <div class="page-banner" id="index-banner">
-            <div class="banner-box">
-               <h1 class="banner-title">Explore science together</h1>
-               <div class="banner-underline"></div>
-               <h2 class="banner-subtitle">Free Entrance. Kid-friendly Events. Best Learning Experience.</h2>
-               <div class="ctn-flex">
-                  <a href="events.html" class="cta cta-primary">See What's On</a>
-                  <a href="#index-about" class="cta cta-secondary">Learn More</a>
-               </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Community Science Museum is a community where every can experience science with fun. We have special events and programs for kids, teachers and researcher."
+    />
+    <meta name="author" content="Community Science Museum" />
+    <title>Community Science Museum</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="nav-container">
+        <nav class="top-nav">
+          <a href="index.html" class="logo"
+            ><img alt="logo picture" src="images/logo-blue.svg"
+          /></a>
+          <input class="menu-toggle" type="checkbox" id="menu-toggle" />
+          <label class="menu-label" for="menu-toggle"
+            ><span class="toggle-icon"></span
+          ></label>
+          <ul class="menu">
+            <li><a href="index.html" class="current-page">Home</a></li>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="kids.html">Programs For Kids</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="get-involved.html">Get Involved</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="page-banner" id="index-banner">
+        <div class="banner-box">
+          <h1 class="banner-title">Explore science together</h1>
+          <div class="banner-underline"></div>
+          <h2 class="banner-subtitle">
+            Free Entrance. Kid-friendly Events. Best Learning Experience.
+          </h2>
+          <div class="ctn-flex">
+            <a href="events.html" class="cta cta-primary">See What's On</a>
+            <a href="#index-about" class="cta cta-secondary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="flexbox-features" id="index-features">
+        <div class="flex-container">
+          <div class="item" onclick="location.href='kids.html';">
+            <div class="row-top">
+              <i class="fas fa-child"></i>
             </div>
-         </div>
-      </header>
-      <main>
-         <section class="flexbox-features" id="index-features">
-            <div class="flex-container">
-               <div class="item" onclick="location.href='kids.html';">
-                  <div class="row-top">
-                     <i class="fas fa-child"></i>
-                  </div>
-                  <div class="row-under">
-                     <h2>For Kids</h2>
-                     <p>We run special holiday clubs where you can join other children your age to go on a journey of discovery.</p>
-                     <a class="btn read-more" href="#">Learn More</a>
-                  </div>
-               </div>
-               <div class="item middle-item" onclick="location.href='education.html#for-teachers';">
-                  <div class="row-up">
-                     <i class="fas fa-chalkboard-teacher"></i>
-                  </div>
-                  <div class="row-under">
-                     <h2>For Teachers</h2>
-                     <p>We offer your students guided tours of the museum and teach them in our learning laboratory.</p>
-                     <a class="btn read-more" href="#">Learn More</a>
-                  </div>
-               </div>
-               <div class="item" onclick="location.href='education.html#for-researchers';">
-                  <div class="row-up">
-                     <i class="fas fa-graduation-cap"></i>
-                  </div>
-                  <div class="row-under">
-                     <h2>For Researchers</h2>
-                     <p>We have online records, laboratory space, and a working relationship with universities around the country.</p>
-                     <a class="btn read-more" href="#">Learn More</a>
-                  </div>
-               </div>
+            <div class="row-under">
+              <h2>For Kids</h2>
+              <p>
+                We run special holiday clubs where you can join other children
+                your age to go on a journey of discovery.
+              </p>
+              <a class="btn read-more" href="#"
+                >Find More About Kids Events</i
+              ></a>
             </div>
-         </section>
-         <section class="flexbox-article" id="index-about">
-            <div class="main-content">
-               <h2>Get to know our museum</h2>
-               <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.</p>
-               <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. </p>
-               <a class="btn read-more" href="#">Read More</a>
+          </div>
+          <div
+            class="item middle-item"
+            onclick="location.href='education.html#for-teachers';"
+          >
+            <div class="row-up">
+              <i class="fas fa-chalkboard-teacher"></i>
             </div>
-            <div class="aside" id="aside-index">
+            <div class="row-under">
+              <h2>For Teachers</h2>
+              <p>
+                We offer your students guided tours of the museum and teach them
+                in our learning laboratory.
+              </p>
+              <a class="btn read-more" href="#">View More About School Visit</a>
             </div>
-         </section>
-         <section class="news-section">
-            <div class="section-intro">
-               <div>
-                  <h2 class="section-title" id="news-section-title">News</h2>
-               </div>
-               <div>
-                  <a href="#" class="read-more">View More <i class="fas fa-arrow-right"></i></a>
-               </div>
+          </div>
+          <div
+            class="item"
+            onclick="location.href='education.html#for-researchers';"
+          >
+            <div class="row-up">
+              <i class="fas fa-graduation-cap"></i>
             </div>
-            <div class="content-wrapper">
-               <div class="news-card">
-                  <a href="#" class="news-link"></a>
-                  <img src="images/event1.jpg" alt="news picture 1" class="news-media">
-                  <div class="news-body">
-                     <h2 class="news-title">Visiting Professor of Aeronautics</h2>
-                     <div class="news-description">
-                        <p>Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics &hellip;</p>
-                        <a href="#" class="news-read-more">Continue reading &#187;</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="news-card">
-                  <a href="#" class="news-link"></a>
-                  <img src="images/dinosaur2.jpg" alt="news picture 2" class="news-media">
-                  <div class="news-body">
-                     <h2 class="news-title">Night in the Museum</h2>
-                     <div class="news-description">
-                        <p>Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.&hellip;</p>
-                        <a href="#" class="news-read-more">Continue reading &#187;</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="news-card">
-                  <a href="#" class="news-link"></a>
-                  <img src="images/fun1.jpg" alt="news picture 3" class="news-media">
-                  <div class="news-body">
-                     <h2 class="news-title">Energetica Exhibition on Loan</h2>
-                     <div class="news-description">
-                        <p>A series of installations that allow visitors to experience the power of the elements as we harness them.&hellip;</p>
-                        <a href="#" class="news-read-more">Continue reading &#187;</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="news-card">
-                  <a href="#" class="news-link"></a>
-                  <img src="images/teen5.jpg" alt="news picture 4" class="news-media">
-                  <div class="news-body">
-                     <h2 class="news-title">Hello, Young Scientists</h2>
-                     <div class="news-description">
-                        <p>Come and have fun. Learn science thourgh hands-on experiments in the museum.&hellip;</p>
-                        <a href="#" class="news-read-more">Continue reading &#187;</a>
-                     </div>
-                  </div>
-               </div>
+            <div class="row-under">
+              <h2>For Researchers</h2>
+              <p>
+                We have online records, laboratory space, and a working
+                relationship with universities around the country.
+              </p>
+              <a class="btn read-more" href="#">Learn More About Our Research Support</a>
             </div>
-         </section>
-         <section class="section-subscribe">
-            <h2 class="subscribe-title">Join our newsletter</h2>
-            <form class="subscribe-form">
-               <input id="email" name="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter your email here" aria-label="Email" required>
-               <button type="submit" class="btn-subscribe">Subscribe</button>
-            </form>
-         </section>
-      </main>
-      <footer class="footer-container">
-         <div class="social-media-bar">
-            <div class="social-media-icons">
-               <ul>
-                  <li>
-                     <a href="#" class="a-twitter"><i class="fab fa-twitter"></i></a>
-                  </li>
-                  <li>
-                     <a href="#" class="a-facebook"><i class="fab fa-facebook"></i></a>
-                  </li>
-                  <li>
-                     <a href="#" class="a-instagram"><i class="fab fa-instagram"></i></a>
-                  </li>
-                  <li>
-                     <a href="#" class="a-snapchat"><i class="fab fa-snapchat-ghost"></i></a>
-                  </li>
-               </ul>
+          </div>
+        </div>
+      </section>
+      <section class="flexbox-article" id="index-about">
+        <div class="main-content">
+          <h2 class="main-content-title">Get to know about our museum</h2>
+          <p>
+            The aim of our museum is to create a space where everyone can
+            experience the wonders of our discoveries and perhaps even ignite a
+            lifelong passion to continue the exploration of the world around us.
+          </p>
+          <p>
+            We believe science should not be confined to the textbook, but
+            brought to live through exhibits. This is why we have over 1000
+            different exhibits on the many varied subjects of science to
+            explore.
+          </p>
+          <a href="#" class="read-more"
+          >Read More About Our Stories <i class="fas fa-arrow-right"></i
+        ></a>
+        </div>
+        <div class="aside" id="aside-index"></div>
+      </section>
+      <section class="news-section">
+        <div class="section-intro">
+          <div>
+            <h2 class="section-title" id="news-section-title">News</h2>
+          </div>
+          <div>
+            <a href="#" class="read-more"
+              >View More   <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+        <div class="content-wrapper">
+          <div class="news-card">
+            <a href="#" class="news-link"></a>
+            <img
+              src="images/event1.jpg"
+              alt="news picture 1"
+              class="news-media"
+            />
+            <div class="news-body">
+              <h2 class="news-title">Visiting Professor of Aeronautics</h2>
+              <div class="news-description">
+                <p>
+                  Prof Sheila Widnall from the Massachusetts Institute of
+                  Technology will be delivering 3 lectures on the development of
+                  aeronautics &hellip;
+                </p>
+                <a href="#" class="news-read-more">Continue reading &#187;</a>
+              </div>
             </div>
-         </div>
-         <div class="copyright">
-            <p>&copy; 2018 - The Community Science Museum</p>
-         </div>
-      </footer>
-   </body>
-   
+          </div>
+          <div class="news-card">
+            <a href="#" class="news-link"></a>
+            <img
+              src="images/dinosaur2.jpg"
+              alt="news picture 2"
+              class="news-media"
+            />
+            <div class="news-body">
+              <h2 class="news-title">Night in the Museum</h2>
+              <div class="news-description">
+                <p>
+                  Bring your own sleeping bag and get ready to rough it as we go
+                  exploring the wonders of science.&hellip;
+                </p>
+                <a href="#" class="news-read-more">Continue reading &#187;</a>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <a href="#" class="news-link"></a>
+            <img
+              src="images/fun1.jpg"
+              alt="news picture 3"
+              class="news-media"
+            />
+            <div class="news-body">
+              <h2 class="news-title">Energetica Exhibition on Loan</h2>
+              <div class="news-description">
+                <p>
+                  A series of installations that allow visitors to experience
+                  the power of the elements as we harness them.&hellip;
+                </p>
+                <a href="#" class="news-read-more">Continue reading &#187;</a>
+              </div>
+            </div>
+          </div>
+          <div class="news-card">
+            <a href="#" class="news-link"></a>
+            <img
+              src="images/teen5.jpg"
+              alt="news picture 4"
+              class="news-media"
+            />
+            <div class="news-body">
+              <h2 class="news-title">Hello, Young Scientists</h2>
+              <div class="news-description">
+                <p>
+                  Come and have fun. Learn science thourgh hands-on experiments
+                  in the museum.&hellip;
+                </p>
+                <a href="#" class="news-read-more">Continue reading &#187;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-subscribe">
+        <h2 class="subscribe-title">Join our newsletter</h2>
+        <form class="subscribe-form">
+          <input
+            id="email"
+            name="email"
+            type="email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+            placeholder="Enter your email here"
+            aria-label="Email"
+            required
+          />
+          <button type="submit" class="btn-subscribe">Subscribe</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer-container">
+      <div class="social-media-bar">
+        <div class="social-media-icons">
+          <ul>
+            <li>
+              <a href="#" class="a-twitter"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#" class="a-facebook"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#" class="a-instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="a-snapchat"
+                ><i class="fab fa-snapchat-ghost"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2018 - The Community Science Museum</p>
+      </div>
+    </footer>
+  </body>
 </html>
