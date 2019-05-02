@@ -56,15 +56,20 @@
           <h1 class="banner-title">Discover Our Events</h1>
         </div>
         <form class="search-form">
-          <input
-            id="search"
-            type="search"
-            name="search"
-            aria-label="Search"
-            placeholder="Which event would like to learn about?"
-            class="search-input"
-          />
-          <button type="submit" class="btn-search">Search For Events</button>
+          <div>
+            <input
+              id="search"
+              name="search"
+              type="search"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+              placeholder="Find a event"
+              aria-label="Search"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit" class="btn-search">Search</button>
+          </div>
         </form>
       </div>
     </header>

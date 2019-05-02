@@ -626,11 +626,12 @@ nav li a:hover,
 
 .subscribe-title {
 	color: #ffffff;
-	font-size: 2.5em;
+	font-size: 2.2em;
 	font-weight: 700;
+	text-transform: capitalize;
 	margin-bottom: 50px;
 	text-align: center;
-	width: 70vw;
+	width: 80vw;
 }
 
 .btn-subscribe {
@@ -679,6 +680,7 @@ nav li a:hover,
 	-ms-flex-preferred-size: 100%;
 	flex-basis: 100%;
 	border: none;
+	width: 70vw;
 }
 
 .subscribe-form input:focus {
@@ -686,6 +688,10 @@ nav li a:hover,
 }
 
 @media (min-width: 768px) {
+	.subscribe-title {
+		font-size: 3em;
+	}
+
 	.subscribe-form {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -701,7 +707,7 @@ nav li a:hover,
 		-ms-flex-preferred-size: 75%;
 		flex-basis: 50%;
 		margin: 0 0 20px 0;
-		width: 40vw;
+		width: 50vw;
 	}
 
 	.btn-subscribe {
