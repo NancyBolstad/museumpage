@@ -27,6 +27,7 @@
 .search-form {
     display: -webkit-box;
     display: -ms-flexbox;
+    margin-top: 20px;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -78,7 +79,7 @@
         -ms-flex-preferred-size: 75%;
         flex-basis: 50%;
         margin: 0 0 20px 0;
-        width: 50vw;
+        width: 30vw;
     }
 
     .btn-search {
