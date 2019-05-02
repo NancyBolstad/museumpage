@@ -519,10 +519,10 @@ nav li a:hover,
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical !important;
-	-webkit-box-direction: normal !important;
-	-ms-flex-direction: column !important;
-	flex-direction: column !important;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	-ms-flex-line-pack: start;
@@ -582,10 +582,10 @@ nav li a:hover,
 
 @media (min-width:1224px) {
 	.flexbox-article {
-		-webkit-box-orient: horizontal !important;
-		-webkit-box-direction: normal !important;
-		-ms-flex-direction: row !important;
-		flex-direction: row !important;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: row;
+		flex-direction: row;
 		width: 80vw;
 	}
 
@@ -594,10 +594,10 @@ nav li a:hover,
 	}
 
 	.mid-section {
-		-webkit-box-orient: horizontal !important;
-		-webkit-box-direction: reverse !important;
-		-ms-flex-direction: row-reverse !important;
-		flex-direction: row-reverse !important;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: reverse;
+		-ms-flex-direction: row-reverse;
+		flex-direction: row-reverse;
 	}
 }
 
