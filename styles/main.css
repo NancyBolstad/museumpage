@@ -663,11 +663,9 @@ nav li a:hover,
 	-ms-flex-pack: center;
 	justify-content: center;
 	-ms-flex-line-pack: center;
-	align-content: center;
+	align-content: space-between;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	max-width: 800px;
-	width: 80%;
 }
 
 .subscribe-form input {
@@ -693,13 +691,17 @@ nav li a:hover,
 		-webkit-box-direction: normal;
 		-ms-flex-direction: row;
 		flex-direction: row;
+		align-items: stretch;
+		-webkit-box-pack: stretch;
+		-ms-flex-pack: stretch;
 	}
 
 	.subscribe-form input {
 		margin-right: 30px;
-		-ms-flex-preferred-size: 50%;
+		-ms-flex-preferred-size: 75%;
 		flex-basis: 50%;
 		margin: 0 0 20px 0;
+		width: 50vw;
 	}
 
 	.btn-subscribe {
