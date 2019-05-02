@@ -139,7 +139,7 @@ main section {
 	text-align: center;
 	position: relative;
 	display: inline-block;
-	padding: 16px;
+	padding: 20px;
 	margin-top: 20px;
 }
 
@@ -329,7 +329,7 @@ nav li a:hover,
 	}
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1224px) {
 	nav li {
 		float: left;
 	}
