@@ -626,11 +626,11 @@ nav li a:hover,
 
 .subscribe-title {
 	color: #ffffff;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-weight: 700;
-	text-transform: capitalize;
-	margin-bottom: 35px;
+	margin-bottom: 50px;
 	text-align: center;
+	width: 70vw;
 }
 
 .btn-subscribe {
@@ -701,7 +701,7 @@ nav li a:hover,
 		-ms-flex-preferred-size: 75%;
 		flex-basis: 50%;
 		margin: 0 0 20px 0;
-		width: 50vw;
+		width: 40vw;
 	}
 
 	.btn-subscribe {
